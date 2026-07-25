@@ -1,0 +1,56 @@
+# ===== Environment =====
+.env
+.env.*.local
+*.env
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+
+# ===== Django =====
+*.log
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-*
+media/
+!media/.gitkeep
+staticfiles/
+!static/.gitkeep
+local_settings.py
+
+# ===== ML Models =====
+*.pkl
+*.joblib
+*.h5
+
+# ===== Virtual Environment =====
+venv/
+env/
+ENV/
+.venv/
+.env/
+django-venv/
+pyvenv.cfg
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===== Testing & Coverage =====
+.coverage
+htmlcov/
+.tox/
+.nox/
