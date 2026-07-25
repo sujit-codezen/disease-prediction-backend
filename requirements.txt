@@ -1,13 +1,24 @@
-Django>=4.2,<5.0
-djangorestframework>=3.14
-djangorestframework-simplejwt>=5.3
-django-cors-headers>=4.3
+# ===== Web Framework =====
+Django>=4.2,<5.1
+djangorestframework>=3.14,<3.16
+djangorestframework-simplejwt>=5.3,<6.0
+django-cors-headers>=4.3,<5.0
+
+# ===== Environment =====
 python-decouple>=3.8
-scikit-learn>=1.3
-pandas>=2.0
-numpy>=1.24
-joblib>=1.3
-pillow>=10.0
-pytesseract>=0.3.10
-requests>=2.31
+
+# ===== ML / Data Science =====
+scikit-learn>=1.3,<2.0
+pandas>=2.0,<3.0
+numpy>=1.24,<3.0
+joblib>=1.3,<2.0
+
+# ===== LLM =====
 groq>=0.4.0
+
+# ===== OCR / Image =====
+pillow>=10.0,<12.0
+pytesseract>=0.3.10,<1.0
+
+# ===== HTTP =====
+requests>=2.31,<3.0
